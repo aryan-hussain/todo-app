@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Outer rectangle representing the notepad -->
+  <rect x="8" y="8" width="48" height="48" rx="4" ry="4" stroke="#000" stroke-width="2" fill="#fff"/>
+  
+  <!-- Header of the notepad -->
+  <rect x="8" y="8" width="48" height="10" fill="#e0e0e0"/>
+  
+  <!-- Lines representing to-do items -->
+  <line x1="16" y1="26" x2="48" y2="26" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <line x1="16" y1="34" x2="48" y2="34" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <line x1="16" y1="42" x2="48" y2="42" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Checkboxes -->
+  <rect x="12" y="22" width="4" height="4" stroke="#000" stroke-width="1" fill="#fff"/>
+  <rect x="12" y="30" width="4" height="4" stroke="#000" stroke-width="1" fill="#fff"/>
+  <rect x="12" y="38" width="4" height="4" stroke="#000" stroke-width="1" fill="#fff"/>
+  
+  <!-- Optional: Checkmark in the first checkbox -->
+  <polyline points="12,24 14,26 16,22" stroke="#000" stroke-width="1.5" fill="none"/>
+</svg>
